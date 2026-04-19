@@ -3,8 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 /* header */
 .container {
+    z-index: 100;
     width: 100%;
     position: fixed;
     left: 0;
@@ -47,6 +49,7 @@
 
 /* main */
 main {
+    z-index: -10;
     width: 100%;
     margin-top: 150px;
 }
@@ -87,5 +90,37 @@ main {
     cursor: pointer;
     background-color: black;
     color: white;
+}
+
+/* Cards-Products */
+.cards {
+    margin: 15px 8px;
+}
+
+.cards-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-item {
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 390px;
+}
+
+.card-item img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.card-item img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 
