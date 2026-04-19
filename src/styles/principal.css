@@ -29,7 +29,7 @@
     list-style: none;
     justify-content: center;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav-item {
@@ -45,6 +45,10 @@
 
 .nav-item a:hover {
     border-bottom: 1px solid black;
+}
+
+#cart {
+    margin-left: 100px;
 }
 
 /* main */
@@ -92,7 +96,7 @@ main {
     color: white;
 }
 
-/* Cards-Products */
+/* cards-Products */
 .cards {
     margin: 15px 8px;
 }
