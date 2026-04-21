@@ -98,7 +98,7 @@ main {
 
 /* cards-Products */
 .cards {
-    margin: 15px 8px;
+    margin: 15px 12px;
 }
 
 .cards-products {
@@ -120,17 +120,18 @@ main {
 }
 
 .card-item img {
+    border-radius: 5px;
     width: 100%;
     height: auto;
 }
 
-.card-item:hover {
+.card-item:hover, .card-item-handbag:hover {
     cursor: pointer;
     transform: translateY(-5px);
 }
 
 .btn-hearth {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.233);
     border: none;
     position: absolute;
     padding: 13px 23px;
@@ -149,7 +150,7 @@ main {
 .view-products > a {
     border: 1px solid black;
     border-radius: 25px;
-    margin: 35px 0 25px 0;
+    margin-top: 25px;
     padding: 12px 20px;
     background-color: black;
     color: white;
@@ -168,7 +169,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .content-price h2 {
@@ -187,7 +188,7 @@ main {
 }
 
 .content-handbag {
-    margin-top: 75px;
+    margin: 75px 0 25px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -200,6 +201,33 @@ main {
 .content-handbag h2 {
     font-family: "Italiana", Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
+}
+
+.cards-handbang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-handbag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 6px;
+    padding-bottom: 2px;
+}
+
+.card-item-handbag {
+    transition: 0.5s;
+    position: relative;
+}
+
+.card-item-handbag img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
 }
 
 /* h2, p */
