@@ -79,7 +79,7 @@ main {
     padding: 15px;
 }
 
-#filter, #sales {
+.filter, .sales {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0);
     padding: 11px 15px;
@@ -90,7 +90,7 @@ main {
     font-size: 0.9rem;
 }
 
-#filter:hover, #sales:hover {
+.filter:hover, .sales:hover {
     cursor: pointer;
     background-color: black;
     color: white;
@@ -161,4 +161,48 @@ main {
     transform: translateY(-10px);
     color: black;
     background-color: white;
+}
+
+.content-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.content-price h2 {
+    color: black;
+    font-family: "Italiana";
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.content-price p {
+    color: rgb(170, 170, 170);
+    font-size: 1.3rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-bottom-width: 0.5px;
+}
+
+.content-handbag {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-handbag p {
+    color: gray;
+}
+
+.content-handbag h2 {
+    font-family: "Italiana", Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+}
+
+/* h2, p */
+p {
+    font-family: "Poppins";
 }
