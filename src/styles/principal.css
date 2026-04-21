@@ -109,8 +109,9 @@ main {
 }
 
 .card-item {
+    border: 1.7px solid white;
     position: relative;
-    padding-top: 6px;
+    padding: 6px 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,6 +119,11 @@ main {
     height: auto;
     width: 390px;
     transition: 0.5s;
+}
+
+.card-item:hover, .card-item-handbag:hover {
+    transform: translateY(-10px);
+    border: 1.7px solid black;
 }
 
 .card-item img {
@@ -141,7 +147,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 
 .buy-price {
@@ -172,7 +178,7 @@ div.buy-price p {
     color: black;
     padding: 10px 25px;
     margin: 15px;
-    transition: 0.5s;
+    transition: 0.45s;
 }
 
 .btn-buy:hover {
@@ -263,7 +269,9 @@ div.buy-price p {
 }
 
 .card-item-handbag {
-    transition: 0.5s;
+    border: 1.7px solid white;
+    padding: 6px 6px;
+    transition: 0.45s;
     position: relative;
 }
 
