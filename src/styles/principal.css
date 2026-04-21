@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+.container {
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    font-family: "Italiana", Arial, Helvetica, sans-serif;
+}
+
+.nav-ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    padding: 10px 15px;
+}
+
+.nav-item a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid black;
+}
+
+#cart {
+    margin-left: 100px;
+}
+
+/* main */
+main {
+    z-index: -10;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.content-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title h1 {
+    font-family: "Italiana";
+    font-size: 2.4rem;
+}
+
+.title p {
+    color: gray;
+    text-align: left;
+}
+
+.actions-filter {
+    padding: 15px;
+}
+
+#filter, #sales {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 11px 15px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.4s;
+    font-size: 0.9rem;
+}
+
+#filter:hover, #sales:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* cards-Products */
+.cards {
+    margin: 15px 8px;
+}
+
+.cards-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-item {
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 390px;
+}
+
+.card-item img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.card-item img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
